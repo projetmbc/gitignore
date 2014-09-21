@@ -1,23 +1,31 @@
-# First uncommented version
-
-# SageMathCloud : https://cloud.sagemath.com
-.bash_history
-.bash_profile
-.bashrc
-.fontconfig/
-.forever/
-.ipython/
-.ssh/
+# SMC - Sage
 .sage/
 .sagemathcloud.log
 .sagemathcloud/
-.snapshots/
-.trash/
 *.sage-backup
 *.sage-chat
 *.sage-history
-*.term
+
+# SMC - Misc.
+.cache
+.snapshots/
+.trash/
+
+.fontconfig/
+.forever/
+
+.ssh/
+
+# SMC - Bash
+.bash_history
+.bash_profile
+.bashrc
+
+# SMC - IPython
+.ipython/
 *.ipynb.syncdoc
 .ipynb_checkpoints
 .ipython-daemon.json
-.cache
+
+# SMC - Terminal
+*.term
